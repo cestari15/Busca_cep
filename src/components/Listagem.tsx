@@ -32,7 +32,7 @@ const Listagem = () => {
                 <div className='container'>
                     <div className='card'>
                         <div className='card-body'>
-                            <h5 className='card-title'> Listagem de Usuários</h5>
+                            <h5 className='card-title'> Listagem de Clientes</h5>
                             <table className='table table-hover'>
                                 <thead>
                                     <tr>
