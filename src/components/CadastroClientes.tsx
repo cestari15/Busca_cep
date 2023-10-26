@@ -20,7 +20,7 @@ const CadastroClientes = () => {
     const [complemento, setComplemento]= useState<string>("");
     const [password, setPassword]= useState<string>("");
 
-    const cadastrarUsuario =(e: FormEvent) => {
+    const cadastrarCliente =(e: FormEvent) => {
             e.preventDefault();
 
             const dados = {
@@ -116,7 +116,7 @@ console.log(response.data)
                     <div className='card'>
                         <div className='card-body'>
                             <h5 className='card-title'>Cadastrar Clientes</h5>
-                            <form onSubmit={cadastrarUsuario} className='row g-3'>
+                            <form onSubmit={cadastrarCliente} className='row g-3'>
                                 <div className='col-6'>
                                     <label htmlFor="nome" className='form-label'>Nome</label>
                                     <input type="text" name='nome' className='form-control' required onChange={handleState} />

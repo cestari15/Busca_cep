@@ -7,6 +7,7 @@ import { CadastroInterface } from '../interfaces/CadastroInterface';
 
 const Listagem = () => {
 
+    console.log(Response)
     const [usuarios, setUsuarios] = useState<CadastroInterface[]>([]);
     const [pesquisa, setPesquisa] = useState<string>('');
     const [error, setError] = useState("");
