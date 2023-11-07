@@ -6,6 +6,7 @@ import Cadastro from "../components/Cadastro";
 import Listagem from "../components/Listagem";
 import CadastroClientes from "../components/CadastroClientes";
 import ListagemClientes from "../components/ListagemClientes";
+import Editar from "../components/Editar";
 
 const AppRouter =()=>{
     return (
@@ -20,6 +21,9 @@ const AppRouter =()=>{
                  <Route path="cliente/listagem" element={<ListagemClientes/>}/>
                     
                  <Route path="listagem"element={<Listagem/>}/>
+
+
+                 <Route path="/editar/:id" element={<Editar/>}/>
                     
                  </Routes>
      </BrowserRouter>
